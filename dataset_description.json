@@ -4,9 +4,9 @@
     "DatasetType": "raw",
     "License": "CC BY 4.0",
     "Authors": [
-        "Inbal Maidan (inbalm@tlvmc.gov.il)",
         "Zoya Katzir",
-        "Daniel Vered"
+        "Daniel Vered",
+        "Inbal Maidan (inbalm@tlvmc.gov.il)"
     ],
     "HowToAcknowledge": "Please contact the authors.",
     "DatasetDOI": "n/a",
