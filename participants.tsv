@@ -1,4 +1,4 @@
-participant_id	subject_id	group	UPDRS part III	UPDRS Total	MoCA	Age	Sex	Disease duration	LEDD	PIGD Score	TD Score	CTT2
+﻿participant_id	subject_id	group	updrs_part_iii	updrs_total	moca	age	sex	disease_duration	ledd	pigd_score	td_score	ctt
 sub-001	HC0001	HC	0.0	0.0	30.0	42.0	M	n/a	n/a	n/a	n/a	n/a
 sub-002	HC0003	HC	2.0	3.0	27.0	60.0	M	n/a	n/a	n/a	n/a	66.0
 sub-003	HC0004	HC	0.0	1.0	27.0	60.0	F	n/a	n/a	n/a	n/a	63.0
