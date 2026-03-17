@@ -1,0 +1,19 @@
+{
+    "Name": "LEMON-PD-EEG: Resting-State & Walking EEG in Parkinson's Disease Dataset",
+    "BIDSVersion": "1.10.0",
+    "DatasetType": "raw",
+    "License": "CC BY 4.0",
+    "Authors": [
+        "Inbal Maidan (inbalm@tlvmc.gov.il)",
+        "Zoya Katzir",
+        "Daniel Vered"
+    ],
+    "HowToAcknowledge": "Please contact the authors.",
+    "DatasetDOI": "n/a",
+    "GeneratedBy": [
+        {
+            "Name": "mne-bids",
+            "Version": "0.18.0"
+        }
+    ]
+}
