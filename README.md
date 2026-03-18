@@ -41,8 +41,9 @@ Each participant underwent EEG recording under two conditions:
    - Duration: ~4 minutes  
 
 Additional clinical data were collected, including:
--**Demographic data**
--**LEDD** (Levodopa Equivalent Daily Dose)
+
+- **Demographic data**
+- **LEDD** (Levodopa Equivalent Daily Dose) - a measure of anti-parkinsonian medication dosage.
 - **MoCA** (Montreal Cognitive Assessment) - a global measure of cognitive function.  
 - **MDS-UPDRS**  - Movement Disorder Society Unified Parkinson's Disease Rating Scale - the gold standard clinical rating scale for Parkinson's Disease.
 - **CTT** - Color Trails Test - a measure of executive function and processing speed.
