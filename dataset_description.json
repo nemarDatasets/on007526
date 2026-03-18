@@ -1,8 +1,8 @@
 {
-    "Name": "PD-EEG: Resting-State & Walking EEG in Parkinson's Disease\n",
+    "Name": "PD-EEG: Resting-State & Walking EEG in Parkinson's Disease",
     "BIDSVersion": "1.10.0",
     "DatasetType": "raw",
-    "License": "CC0",
+    "License": "CC BY 4.0",
     "Authors": [
         "Zoya Katzir",
         "Daniel Vered",
