@@ -1,8 +1,8 @@
-﻿# LEMON-PD-EEG: Resting-State & Walking EEG in Parkinson's Disease Dataset
+# PD-EEG: Resting-State & Walking EEG in Parkinson's Disease
 
 ## Overview
 
-This dataset contains EEG recordings from Parkinson's disease (PD) patients and healthy controls (HC), collected under two behavioral conditions: resting state (sitting) and walking. The dataset was acquired at the Laboratory of Early Markers of Neurodegeneration (LEMON), Tel Aviv Sourasky Medical Center.
+This dataset contains EEG recordings from Parkinson's disease (PD) patients and healthy controls (HC), collected under two behavioral conditions: resting state (sitting) and walking. The dataset was acquired at the Neurology Institute, Tel Aviv Sourasky Medical Center.
 
 ---
 
@@ -13,7 +13,7 @@ This dataset contains EEG recordings from Parkinson's disease (PD) patients and 
 
 ### Inclusion criteria (PD):
 - Age 40–90  
-- Hoehn & Yahr stage ≤ 2  
+- Hoehn & Yahr stage ≤ 3 
 - MoCA ≥ 21  
 - Able to walk independently  
 
@@ -37,11 +37,13 @@ Each participant underwent EEG recording under two conditions:
    - Duration: ~4 minutes  
 
 2. **Walking** (133 Recordings)
-   - Walking on a treadmill  
+   - Walking on a treadmill at a comfortable speed while holding the handrails.
    - Duration: ~4 minutes  
 
 Additional clinical data were collected, including:
-- **MoCA** (Montreal Cognitive Assessment) - a measure of cognitive function.  
+-**Demographic data**
+-**LEDD** (Levodopa Equivalent Daily Dose)
+- **MoCA** (Montreal Cognitive Assessment) - a global measure of cognitive function.  
 - **MDS-UPDRS**  - Movement Disorder Society Unified Parkinson's Disease Rating Scale - the gold standard clinical rating scale for Parkinson's Disease.
 - **CTT** - Color Trails Test - a measure of executive function and processing speed.
 
@@ -49,7 +51,7 @@ Additional clinical data were collected, including:
 
 ## EEG Acquisition
 
-- **System:** 64-channel EEG  
+- **System:** 64-channel Geodesic EEG System 400 (EGI system)
 - **Montage:** International 10–20 system  
 
 ---
