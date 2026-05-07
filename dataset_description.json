@@ -15,5 +15,8 @@
             "Name": "mne-bids",
             "Version": "0.18.0"
         }
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1002/mds.70348"
     ]
 }
