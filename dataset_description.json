@@ -9,7 +9,7 @@
         "Inbal Maidan (inbalm@tlvmc.gov.il)"
     ],
     "HowToAcknowledge": "Please contact the authors.",
-    "DatasetDOI": "doi:10.18112/openneuro.ds007526.v1.0.0",
+    "DatasetDOI": "doi:10.18112/openneuro.ds007526.v1.0.1",
     "GeneratedBy": [
         {
             "Name": "mne-bids",
