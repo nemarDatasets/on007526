@@ -48,6 +48,10 @@ Additional clinical data were collected, including:
 - **MDS-UPDRS**  - Movement Disorder Society Unified Parkinson's Disease Rating Scale - the gold standard clinical rating scale for Parkinson's Disease.
 - **CTT** - Color Trails Test - a measure of executive function and processing speed.
 
+The `Clinical Data` directory contains additional clinical files:
+
+- `full_UPDRS_data.tsv`: item-level UPDRS data for all PD participants, including scores for each individual UPDRS item rather than only part-level summary scores.
+- `longitudinal_clinical_data.tsv`: longitudinal clinical follow-up data, available for a subset of participants.
 ---
 
 ## EEG Acquisition
