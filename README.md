@@ -50,7 +50,7 @@ Additional clinical data were collected, including:
 ---
 ## Additional Data
 
-The `Clinical Data` directory contains additional clinical files:
+The `sourcedata\clinical_data` directory contains additional clinical files:
 
 - `full_UPDRS_data.tsv`: item-level UPDRS data for all PD participants, including scores for each individual UPDRS item rather than only part-level summary scores.
 - `longitudinal_clinical_data.tsv`: longitudinal clinical follow-up data, available for a subset of participants.
