@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PD-EEG: Resting-State & Walking EEG in Parkinson's Disease",
+  "description": "This dataset comprises 64-channel EEG recordings from 116 Parkinson's disease patients and 28 healthy controls acquired during resting state (sitting, eyes open) and treadmill walking conditions. Each participant underwent approximately 4 minutes of EEG recording under both behavioral conditions, with accompanying clinical assessments including MDS-UPDRS, MoCA, and medication dosage data. The dataset was collected at the Neurology Institute, Tel Aviv Sourasky Medical Center, and is organized according to BIDS specifications.",
+  "methods_description": "EEG data were acquired using a 64-channel Geodesic EEG System 400 (EGI system) with electrode montage following the International 10–20 system. Recordings were conducted under two conditions: resting state (sitting, eyes open, ~4 minutes) and walking on a treadmill at comfortable speed (~4 minutes). Clinical assessments included demographic data, Levodopa Equivalent Daily Dose (LEDD), Montreal Cognitive Assessment (MoCA), Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS), and Color Trails Test (CTT).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +11,27 @@
     "Daniel Vered": {},
     "Inbal Maidan (inbalm@tlvmc.gov.il)": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007526.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "Parkinson's disease"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "gait"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "neurophysiology"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1002/mds.70348",
       "identifier_type": "DOI",
@@ -29,15 +46,20 @@
       "identifier": "https://nemar.org/dataset/on007526",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007526.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "4.6 GB (278 files)"
   ],
   "formats": [
     ".json",
@@ -46,29 +68,5 @@
     ".tsv",
     ".yml"
   ],
-  "description": "This dataset comprises resting-state and walking EEG recordings from 116 Parkinson's disease patients and 28 healthy controls, acquired using a 64-channel Geodesic EEG System. Each participant underwent approximately 4-minute EEG sessions during seated rest (eyes open) and treadmill walking at comfortable speed. The dataset includes comprehensive clinical assessments (MDS-UPDRS, MoCA, LEDD, CTT) and is organized according to BIDS standards, enabling investigation of neurophysiological differences between disease and control groups across behavioral states.",
-  "methods_description": "EEG was recorded using a 64-channel Geodesic EEG System 400 (EGI system) with International 10–20 montage. Two behavioral conditions were assessed: resting state (sitting, eyes open, ~4 minutes) and walking (treadmill at comfortable speed with handrail support, ~4 minutes). Clinical data included demographic information, LEDD, MoCA, MDS-UPDRS, and CTT assessments.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Parkinson's disease"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "Gait",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005684"
-    },
-    {
-      "term": "neurophysiology"
-    },
-    {
-      "term": "motor control"
-    }
-  ],
-  "source_hash": "b9646e27ab7d212fdcb43ba9e42e309417e1fc16baf10faf5d114734762b7264"
+  "source_hash": "f7160d1fcd83a411ab0a980404e41ef3cd757a0860b9f351546510dca737c1d3"
 }
