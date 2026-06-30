@@ -1,0 +1,29 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007526",
+  "source": "openneuro",
+  "source_id": "ds007526",
+  "title": "PD-EEG: Resting-State & Walking EEG in Parkinson's Disease",
+  "authors": {
+    "Zoya Katzir": {},
+    "Daniel Vered": {},
+    "Inbal Maidan (inbalm@tlvmc.gov.il)": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007526.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.10.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
