@@ -1,0 +1,18 @@
+{
+  "dataset_id": "on007526",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:32:54.765Z",
+  "source": {
+    "type": "openneuro",
+    "id": "ds007526"
+  },
+  "complete": true,
+  "completeness": {
+    "files_present": 277,
+    "files_declared": 277,
+    "bytes_present": 4576354852,
+    "bytes_declared": 4578787059,
+    "pct_bytes": 0.9994688097592965
+  },
+  "missing": []
+}
