@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "PD-EEG: Resting-State & Walking EEG in Parkinson's Disease",
-  "description": "This dataset comprises 64-channel EEG recordings from 116 Parkinson's disease patients and 28 healthy controls acquired during resting state (sitting, eyes open) and treadmill walking conditions. Each participant underwent approximately 4 minutes of EEG recording under both behavioral conditions, with accompanying clinical assessments including MDS-UPDRS, MoCA, and medication dosage data. The dataset was collected at the Neurology Institute, Tel Aviv Sourasky Medical Center, and is organized according to BIDS specifications.",
-  "methods_description": "EEG data were acquired using a 64-channel Geodesic EEG System 400 (EGI system) with electrode montage following the International 10–20 system. Recordings were conducted under two conditions: resting state (sitting, eyes open, ~4 minutes) and walking on a treadmill at comfortable speed (~4 minutes). Clinical assessments included demographic data, Levodopa Equivalent Daily Dose (LEDD), Montreal Cognitive Assessment (MoCA), Movement Disorder Society Unified Parkinson's Disease Rating Scale (MDS-UPDRS), and Color Trails Test (CTT).",
+  "description": "This dataset comprises EEG recordings from 116 individuals with Parkinson's disease (PD) and 28 healthy controls, collected at the Neurology Institute, Tel Aviv Sourasky Medical Center. Recordings were obtained during resting-state (eyes open, sitting) and treadmill walking conditions, accompanied by clinical measures including MoCA, MDS-UPDRS, LEDD, and CTT scores. The dataset aims to support research into neurophysiological subtypes and gait-related cognitive-motor interactions in Parkinson's disease.",
+  "methods_description": "EEG data were acquired using a 64-channel Geodesic EEG System 400 (EGI system) with electrodes placed according to the International 10-20 system. Each participant completed two ~4-minute recordings: one during eyes-open resting sitting and one during treadmill walking at a comfortable speed while holding handrails. Additional clinical assessments (MoCA, MDS-UPDRS, LEDD, CTT) were collected alongside demographic data.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,22 +13,31 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
-      "term": "Parkinson's disease"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Gait",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005684"
     },
     {
       "term": "resting state"
     },
     {
-      "term": "gait"
+      "term": "walking"
     },
     {
-      "term": "motor control"
+      "term": "Movement Disorder Society Unified Parkinson's Disease Rating Scale"
     },
     {
-      "term": "neurophysiology"
+      "term": "Montreal Cognitive Assessment"
     }
   ],
   "related_identifiers": [
